@@ -1,0 +1,158 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+text-align: center;
+padding: 20px;
+}
+nav ul {
+list-style: none;
+padding: 0;
+background: #333;
+text-align: center;
+}
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+nav ul li a {
+color:h1 rgb(255, 255, 255);
+text-decoration: none;
+font-size: 18px;
+}
+main {
+background: white;
+padding: 20px;
+margin: 20px auto;
+width: 60%;
+box-shadow: 0px 0px 10px gray;
+}
+img {
+width: 100%;
+border-radius: 10px;
+}
+footer {
+background: #333;
+color:h1 rgb(255, 255, 255);
+text-align: center;
+padding: 10px;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+font-family:'Poppins', sans-serif;
+}
+nav ul li a:hover {
+color: #0004ff;
+}
+h1 {
+  color: blue;
+}
+p {
+  font-family: Arial, sans-serif;
+}
+nav a {
+  font-size: 20px;
+}
+nav {
+  background-color: #0033A0;
+  padding: 15px;
+}
+img {
+  border-radius: 15px;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+nav a {
+  color: white;        
+  text-decoration: none; 
+  transition: 0.3s;   
+}
+img {
+  transition: transform 0.3s; 
+}
+
+img:hover {
+  transform: scale(1.1); 
+}
+/* Section Contact */
+#contact {
+  background-color: #0033A0; /* bleu Yamaha */
+  color: white;
+  padding: 50px 30px;
+  max-width: 700px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+}
+
+/* Titre */
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Formulaire */
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+#contact label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Champs de saisie */
+#contact input,
+#contact textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Effet hover sur champs */
+#contact input:hover,
+#contact textarea:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Bouton */
+#contact button {
+  background-color: white;
+  color: #0033A0;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Effet hover sur bouton */
+#contact button:hover {
+  background-color: #005EB8;
+  color: white;
+  transform: scale(1.05);
+}
+body {
+    background-color: black;
+    color: white; /* pour que le texte reste lisible */
+}
+img {
+    border: 3px solid #222;
+    border-radius: 10px;
+}
